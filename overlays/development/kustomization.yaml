@@ -18,3 +18,9 @@ patches:
       version: v1alpha1
       kind: Dragonfly
       name: dragonfly
+  - path: ingress.yaml
+    target:
+      group: networking.k8s.io
+      version: v1
+      kind: Ingress
+      name: course-app
